@@ -1,0 +1,24 @@
+:root {
+    --neutral-bg: #1E1B1C;
+    --primary: white;
+    --accent: #A8FC35;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    background: var(--neutral-bg);
+}
+
+.card {
+    color: var(--primary);
+    background-image: url("img/land-o-lakes-inc-5vVjIErxZlo-unsplash.jpg");
+}
